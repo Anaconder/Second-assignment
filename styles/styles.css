@@ -1,0 +1,90 @@
+
+body,html{
+  margin:0px;
+  height: auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgba(20,20,20,255);
+}
+
+#main_container{
+  height: auto;
+  margin: 10px 0px;
+  width: 95vw;
+  /* border: 1px solid blue; */
+  background-color: rgba(40,40,40,255);
+}
+
+#section1{
+  display:flex;
+  justify-content: center;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.section2_box1_box1>h5{
+  font-weight: 300;
+  /* color: blue; */
+}
+
+#Box_1{
+  display: flex;
+  flex: 54%;
+}
+
+#Box_1_text{
+  padding: 1em 0em;
+}
+
+#Box_1_text> h2,h3{
+  margin: 1px 10px;
+}
+
+
+#Box_2{
+  flex: 45%;
+}
+
+.list{
+  list-style-type: none;
+}
+
+.section2{
+  /* border: 1px solid darkorange; */
+  flex: 69%;
+  padding: 4em 1em;
+}
+
+.section3{
+  flex: 29%;
+  padding: 4em 1em;
+  /* border: 1px solid rgb(119, 5, 119); */
+}
+
+.Lower_part{
+  display:flex;
+  align-items: flex-start;  
+}
+
+.section2_box1{
+  display:flex;
+  justify-content: space-between;
+  width: auto;
+}
+
+.section2_box1>p{
+  margin-top: .5em;
+  text-align: right;
+}
+.section2_box1_box1>h4{
+  margin-top: .5em;
+  margin-bottom: 0em;
+}
+
+.section2_box1_box1>h5{
+  margin: 0em 0px;
+}
